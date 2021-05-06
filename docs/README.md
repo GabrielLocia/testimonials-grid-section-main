@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [solution URL here](https://github.com/GabrielLocia/testimonials-grid-section-main)
-- Live Site URL: [site URL here](https://GabrielLocia.github.io/frontend-mentor/)
+- Live Site URL: [site URL here](https://gabriellocia.github.io/testimonials-grid-section-main/)
 
 ## My process
 
