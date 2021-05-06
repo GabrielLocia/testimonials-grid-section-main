@@ -20,7 +20,7 @@ body {
 
 section {
   display: grid;
-  padding:  0 80px;
+  padding: 0 80px;
   margin-top: 60px;
   border-radius: 10px;
   grid-gap: 30px;
@@ -137,17 +137,14 @@ p {
 }
 
 #part3 .sentence {
-  
   margin-left: 40px;
   text-align: left;
   width: 180px;
   color: hsl(217, 19%, 35%);
-
 }
 
 #part3 header span {
   color: hsla(217, 19%, 35%, 0.582);
- 
 }
 
 #part4 {
@@ -159,7 +156,7 @@ p {
 }
 #part4 p {
   margin: 15px 40px;
-  width:  470px;
+  width: 470px;
   color: hsla(0, 0%, 100%, 0.5);
   line-height: 20px;
 }
@@ -173,7 +170,7 @@ p {
   border: 2px solid hsl(263, 55%, 52%);
 }
 
-#part5{
+#part5 {
   grid-column-start: fourth;
 
   grid-row-start: 1;
@@ -183,11 +180,9 @@ p {
   border-radius: 10px;
   -webkit-box-shadow: 5px 10px 24px -4px rgba(0, 0, 0, 0.19);
   box-shadow: 8px 12px 24px -4px rgba(0, 0, 0, 0.19);
-
 }
 
 #part5 p {
-
   margin: 15px 40px;
   text-align: left;
   width: 203px;
@@ -203,10 +198,149 @@ p {
   text-align: left;
   width: 230px;
   color: hsl(217, 19%, 35%);
-
 }
 
 #part5 header span {
   color: hsla(217, 19%, 35%, 0.582);
- 
+}
+
+@media (max-width: 375px) {
+  section {
+    display: grid;
+    padding: 0 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+    grid-gap: 20px;
+    grid-template-columns: [first] 360px;
+    grid-template-rows: 480px 260px 240px 410px 470px;
+    margin-bottom: 35px;
+  }
+
+  #part1{
+    grid-column-start: first;
+    grid-column-end: first;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  p {
+   
+    margin: 15px 40px;
+    text-align: left;
+    width: 250px;
+    color: hsla(0, 0%, 100%, 0.5);
+    line-height: 20px;
+  }
+
+  #part1 .svg {
+    position: absolute;
+    top: 1px;
+    left: 58%;
+  }
+
+  .sentence {
+   
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    width: 255px;
+    color: white;
+    z-index: 1;
+  }
+
+  
+
+  #part2{
+    grid-column-start: first;
+    grid-row-start: 2;
+    grid-row-end:2
+  }
+
+  #part2 p {
+    margin: 15px 40px;
+    text-align: left;
+    width: 290px;
+    color: hsla(0, 0%, 100%, 0.5);
+    line-height: 20px;
+  }
+
+  #part2 .sentence {
+
+    margin-left: 40px;
+    text-align: left;
+    width: 240px;
+    color: white;
+  }
+
+  #part3{
+    grid-column-start: first;
+    grid-row-start: 3;
+    grid-row-end:3
+  }
+
+  #part3 p {
+    margin: 15px 40px;
+    text-align: left;
+    width: 265px;
+    color: hsla(217, 19%, 35%, 0.705);
+    line-height: 20px;
+  }
+
+  #part3 .sentence {
+    margin-left: 40px;
+    text-align: left;
+    width: 265px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  #part4{
+    grid-column-start: first;
+    grid-column-end: first;
+    grid-row-start: 4;
+    grid-row-end:4;
+  }
+
+  
+  #part4 p {
+    margin: 15px 40px;
+    text-align: left;
+    width: 260px;
+    color: hsla(0, 0%, 100%, 0.5);
+    line-height: 20px;
+  }
+
+
+
+  #part4 .sentence {
+
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    width: 260px;
+    color: white;
+    
+  }
+
+  #part5{
+    grid-column-start: first;
+    grid-row-start: 5;
+    grid-row-end:5
+  }
+
+  
+  #part5 p {
+    margin: 15px 40px;
+    width: 270px;
+    color: hsla(217, 19%, 35%, 0.705);
+    line-height: 20px;
+  }
+
+  #part5 .sentence {
+
+    margin-left: 40px;
+    text-align: left;
+    width: 300px;
+    color: hsl(217, 19%, 35%);
+  }
+  
 }
