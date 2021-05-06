@@ -20,7 +20,7 @@ body {
 
 section {
   display: grid;
-  padding: 0 80px;
+  padding: 0 20px;
   margin-top: 60px;
   border-radius: 10px;
   grid-gap: 30px;
@@ -211,6 +211,7 @@ p {
     margin-top: 60px;
     border-radius: 10px;
     grid-gap: 20px;
+    justify-content: space-evenly;
     grid-template-columns: [first] 360px;
     grid-template-rows: 480px 260px 240px 410px 470px;
     margin-bottom: 35px;
@@ -344,3 +345,4 @@ p {
   }
   
 }
+
